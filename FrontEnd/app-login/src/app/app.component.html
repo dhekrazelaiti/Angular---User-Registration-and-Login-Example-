@@ -1,11 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<div *ngFor="let message of apiService.messages">
+<mat-toolbar>Authentication/Registration Exemples
 
-  <mat-card>{{message.message}}</mat-card>
+  <span style ="Flex : 1 1 auto"></span>
+  <button mat-button routerLink ="/register">Register</button>
+  <button mat-button routerLink ="/login">Login</button>
 
-  <button mat-button>Click me!</button>
-</div>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
 
 
 
